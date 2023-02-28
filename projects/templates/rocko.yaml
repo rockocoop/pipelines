@@ -1,0 +1,9 @@
+{{- .Values.required }}
+apiVersion: project.openshift.io/v1
+kind: Project
+metadata:
+  labels:
+    kubernetes.io/metadata.name: rocko
+  name: rocko
+spec: {}
+{{- end }}
