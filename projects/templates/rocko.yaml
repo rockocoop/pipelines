@@ -5,5 +5,4 @@ metadata:
   labels:
     kubernetes.io/metadata.name: rocko
   name: rocko
-spec: {}
 {{- end }}
